@@ -158,5 +158,90 @@ header .logo{
     line-height: 20px;
     text-decoration-line: underline;
     color: #000000;
+}
 
+.best_sellers{
+    padding-top: 60px;
+    padding-bottom: 248px;
+    background: #FFFFFF;
+}
+
+.for_text{
+    max-width: 642px;
+    margin: auto;
+    text-align: center;
+}
+
+.for_text h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.for_text h2:first-of-type{
+    margin-bottom: 27px;
+}
+
+.for_text h2:last-of-type{
+    margin-bottom: 52px;
+}
+
+.for_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.for_text p:first-of-type{
+    margin-bottom: 47px;
+}
+
+.for_text p:last-of-type{
+    margin-bottom: 88px;
+}
+
+.card{
+    max-width: 315px;
+    text-align: center;
+}
+
+.card p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.card p:first-of-type{
+    font-weight: 700;
+    margin-top: 27px;
+    margin-bottom: 17px;
+}
+
+.card p:last-of-type{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.card img{
+    width: 100%;
+    display: block;
 }
