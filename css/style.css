@@ -245,3 +245,52 @@ header .logo{
     width: 100%;
     display: block;
 }
+
+.Culture{
+    background-color: rgba(204, 204, 204, 0.6);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+
+.Culture .for_img{
+    max-width: 385px;
+    margin-left: 50px;
+}
+.Culture .for_img img {
+    width: 100%;
+    display: block;
+}
+.Culture .description{
+    max-width: 513px;
+    text-align: right;
+}
+
+.Culture .description h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+
+.Culture .description p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.Culture .description a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
