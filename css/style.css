@@ -159,7 +159,7 @@ header .logo {
     max-width: 498px;
 }
 
-.People .description h2 {
+.People .description h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -195,13 +195,16 @@ header .logo {
     background: #FFFFFF;
 }
 
-.for_text {
-    max-width: 642px;
-    margin: auto;
+.text-center{
     text-align: center;
 }
 
-.for_text h2 {
+.for_text {
+    max-width: 642px;
+    margin: auto;
+}
+
+.for_text h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -210,11 +213,11 @@ header .logo {
     color: #000000;
 }
 
-.for_text h2:first-of-type {
+.for_text h3:first-of-type {
     margin-bottom: 27px;
 }
 
-.for_text h2:last-of-type {
+.for_text h3:last-of-type {
     margin-bottom: 52px;
 }
 
@@ -296,7 +299,7 @@ header .logo {
     text-align: right;
 }
 
-.Culture .description h2 {
+.Culture .description h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -346,7 +349,7 @@ header .logo {
     max-width: 498px;
 }
 
-.Power .description h2 {
+.Power .description h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -367,6 +370,122 @@ header .logo {
 }
 
 .Power .description a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.Features{
+    background-color: #FFFFFF;
+    padding-top: 190px;
+    padding-bottom: 290px;
+}
+
+.p_features{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 69px;
+}
+
+.link_features{
+    padding-bottom: 111px;
+    flex-basis: 250px;
+}
+.link_features a{
+    display: block;
+    margin: auto;
+    width: 70px ;
+    height: 70px;
+    border-radius: 50%;
+}
+.link_features p{
+    margin-top: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.for_link{
+    margin: auto;
+    max-width: 926px;
+    flex-wrap: wrap;
+}
+.link_1 a{
+    background: #21F7EC;
+}
+.link_2 a{
+    background: #33D3BC;
+}
+
+.link_3 a{
+    background: #18A5C6;
+}
+
+.link_4 a{
+    background: #D38F62;
+}
+
+.link_5 a{
+    background: #F94C43;
+}
+
+.link_6 a{
+    background: #D399FF;
+}
+
+.Features h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.Interviewed{
+    background-color: #F0F0F0;
+}
+
+.vertical_shift{
+    position: relative;
+    top: -188px;
+    margin-bottom: -136px;
+}
+
+.Interviewed .card p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.Interviewed .card p:first-of-type {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.Interviewed .card p:last-of-type {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 44px;
+}
+
+.Interviewed .card a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
