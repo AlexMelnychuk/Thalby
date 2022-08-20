@@ -1,28 +1,35 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     background-color: white;
     padding: 7px 0;
 }
-.container{
+
+.container {
     margin: auto;
     max-width: 1064px;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
-.justify-between{
+
+.justify-between {
     justify-content: space-between;
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-header ul{
+
+header ul {
     list-style: none;
 }
-header nav li a{
+
+header nav li a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -31,51 +38,64 @@ header nav li a{
     color: #1C1B1B;
     text-decoration: none;
 }
-header nav li{
+
+header nav li {
     margin-right: 28px;
 }
-header li:first-of-type{
+
+header li:first-of-type {
     margin-right: 16px;
 }
-header nav li:first-of-type{
+
+header nav li:first-of-type {
     margin-right: 28px;
 }
-header li:last-of-type{
+
+header li:last-of-type {
     margin-left: 7px;
 }
-header nav li:last-of-type{
+
+header nav li:last-of-type {
     margin-left: 0;
 }
-header .container{
+
+header .container {
     position: relative;
 }
-header .logo{
+
+header .logo {
     position: absolute;
     left: 50%;
     margin-left: -40px;
     top: 13px;
 }
-header li:last-of-type{
+
+header li:last-of-type {
     margin-left: 7px;
 }
-header nav li:last-of-type{
+
+header nav li:last-of-type {
     margin-left: 0;
 }
-header .container{
+
+header .container {
     position: relative;
 }
-header .logo{
+
+header .logo {
     position: absolute;
     left: 50%;
     margin-left: -40px;
     top: 13px;
 }
-.main_banner{
+
+.main_banner {
     padding: 90px 0;
     background-color: #F0EFEB;
     position: relative;
 }
-.main_banner h1{
+
+.main_banner h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -84,7 +104,8 @@ header .logo{
     color: #000000;
     margin-bottom: 42px;
 }
-.main_banner p{
+
+.main_banner p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -93,7 +114,8 @@ header .logo{
     color: #000000;
     margin-bottom: 26px;
 }
-.main_banner a{
+
+.main_banner a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -107,30 +129,34 @@ header .logo{
     padding: 7px 23px;
     text-decoration: none;
 }
-.main_banner img{
+
+.main_banner img {
     position: absolute;
     right: 6%;
     top: 0;
 }
-.People{
+
+.People {
     background: rgba(204, 204, 204, 0.3);
     padding-top: 76px;
     padding-bottom: 61px;
 }
-.People .for_img{
+
+.People .for_img {
     max-width: 385px;
     margin-right: 50px;
 }
-.People .for_img img{
+
+.People .for_img img {
     width: 100%;
     display: block;
 }
 
-.People .description{
+.People .description {
     max-width: 498px;
 }
 
-.People .description h2{
+.People .description h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -140,7 +166,7 @@ header .logo{
     margin-bottom: 31px;
 }
 
-.People .description p{
+.People .description p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -150,7 +176,7 @@ header .logo{
     margin-bottom: 40px;
 }
 
-.People .description a{
+.People .description a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -160,19 +186,19 @@ header .logo{
     color: #000000;
 }
 
-.best_sellers{
+.best_sellers {
     padding-top: 60px;
     padding-bottom: 248px;
     background: #FFFFFF;
 }
 
-.for_text{
+.for_text {
     max-width: 642px;
     margin: auto;
     text-align: center;
 }
 
-.for_text h2{
+.for_text h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -181,15 +207,15 @@ header .logo{
     color: #000000;
 }
 
-.for_text h2:first-of-type{
+.for_text h2:first-of-type {
     margin-bottom: 27px;
 }
 
-.for_text h2:last-of-type{
+.for_text h2:last-of-type {
     margin-bottom: 52px;
 }
 
-.for_text p{
+.for_text p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -198,20 +224,20 @@ header .logo{
     color: #000000;
 }
 
-.for_text p:first-of-type{
+.for_text p:first-of-type {
     margin-bottom: 47px;
 }
 
-.for_text p:last-of-type{
+.for_text p:last-of-type {
     margin-bottom: 88px;
 }
 
-.card{
+.card {
     max-width: 315px;
     text-align: center;
 }
 
-.card p{
+.card p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 17px;
@@ -220,18 +246,18 @@ header .logo{
     color: #000000;
 }
 
-.card p:first-of-type{
+.card p:first-of-type {
     font-weight: 700;
     margin-top: 27px;
     margin-bottom: 17px;
 }
 
-.card p:last-of-type{
+.card p:last-of-type {
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.card a{
+.card a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -241,31 +267,33 @@ header .logo{
     color: #000000;
 }
 
-.card img{
+.card img {
     width: 100%;
     display: block;
 }
 
-.Culture{
+.Culture {
     background-color: rgba(204, 204, 204, 0.6);
     padding-top: 76px;
     padding-bottom: 51px;
 }
 
-.Culture .for_img{
+.Culture .for_img {
     max-width: 385px;
     margin-left: 50px;
 }
+
 .Culture .for_img img {
     width: 100%;
     display: block;
 }
-.Culture .description{
+
+.Culture .description {
     max-width: 513px;
     text-align: right;
 }
 
-.Culture .description h2{
+.Culture .description h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -275,7 +303,7 @@ header .logo{
     margin-bottom: 31px;
 }
 
-.Culture .description p{
+.Culture .description p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -285,7 +313,57 @@ header .logo{
     margin-bottom: 40px;
 }
 
-.Culture .description a{
+.Culture .description a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.Power {
+    background-color: rgba(204, 204, 204, 0.3);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+
+.Power .for_img {
+    max-width: 385px;
+    margin-right: 50px;
+}
+
+.Power .for_img img {
+    width: 100%;
+    display: block;
+}
+
+.Power .description {
+    max-width: 498px;
+}
+
+.Power .description h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+
+.Power .description p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.Power .description a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
