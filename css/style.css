@@ -505,4 +505,71 @@ header .logo {
     text-decoration-line: underline;
     color: #000000;
 }
+.contact_form{
+    padding-top: 79px;
+    padding-bottom: 88px;
+    background-color: #FFFFFF;
+}
 
+.container_form{
+    max-width: 496px;
+    margin: auto;
+}
+.container_form h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.container_form p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.container_form form{
+    max-width: 366px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+}
+
+.container_form input{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    box-sizing: border-box;
+}
+
+.name{
+    width: 153px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 8px ;
+    margin-bottom: 18px;
+    border: 1px solid #000000;
+}
+
+#post{
+    width: 366px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+}
+.subscribe{
+    padding: 7px 23px 10px;
+    border-radius: 17px;
+    color: #FFFFFF;
+    background: #000000;
+}
