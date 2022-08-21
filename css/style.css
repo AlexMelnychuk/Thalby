@@ -20,7 +20,8 @@ header {
 .justify-between {
     justify-content: space-between;
 }
-.justify-right{
+
+.justify-right {
     justify-content: flex-end;
 }
 
@@ -195,7 +196,7 @@ header .logo {
     background: #FFFFFF;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -379,13 +380,13 @@ header .logo {
     color: #000000;
 }
 
-.Features{
+.Features {
     background-color: #FFFFFF;
     padding-top: 190px;
     padding-bottom: 290px;
 }
 
-.p_features{
+.p_features {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -396,18 +397,25 @@ header .logo {
     margin-bottom: 69px;
 }
 
-.link_features{
+.link_features {
     padding-bottom: 111px;
     flex-basis: 250px;
 }
-.link_features a{
+
+.link_features a {
     display: block;
     margin: auto;
-    width: 70px ;
+    width: 70px;
     height: 70px;
     border-radius: 50%;
 }
-.link_features p{
+
+.link_features a:hover {
+    box-sizing: border-box;
+    border: 3px solid #185bc8;
+}
+
+.link_features p {
     margin-top: 26px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -416,35 +424,38 @@ header .logo {
     line-height: 35px;
     color: #000000;
 }
-.for_link{
+
+.for_link {
     margin: auto;
     max-width: 926px;
     flex-wrap: wrap;
 }
-.link_1 a{
+
+.link_1 a {
     background: #21F7EC;
 }
-.link_2 a{
+
+.link_2 a {
     background: #33D3BC;
 }
 
-.link_3 a{
+.link_3 a {
     background: #18A5C6;
 }
 
-.link_4 a{
+.link_4 a {
     background: #D38F62;
 }
 
-.link_5 a{
+.link_5 a {
     background: #F94C43;
 }
 
-.link_6 a{
+.link_6 a {
     background: #D399FF;
 }
 
-.Features h3{
+.Features h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -453,11 +464,11 @@ header .logo {
     color: #000000;
 }
 
-.Interviewed{
+.Interviewed {
     background-color: #F0F0F0;
 }
 
-.vertical_shift{
+.vertical_shift {
     position: relative;
     top: -188px;
     margin-bottom: -136px;
@@ -494,3 +505,4 @@ header .logo {
     text-decoration-line: underline;
     color: #000000;
 }
+
