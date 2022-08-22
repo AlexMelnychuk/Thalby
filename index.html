@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <header>
@@ -180,7 +181,7 @@
 </section>
 <section class="Interviewed">
     <div class="container d-flex justify-between">
-        <div class="card  vertical_shift">
+        <div class="card">
             <img src="images/img_7.svg" alt="img_7">
             <p>"I don’t like things to be <br>
                 conventional. If it’s too <br>
@@ -190,7 +191,7 @@
                 Landscape Designer, France</p>
             <a href="#">Discover</a>
         </div>
-        <div class="card  vertical_shift">
+        <div class="card">
             <img src="images/img_8.svg" alt="img_8">
             <p>"Magic is not magic in <br>
                 the sense that I can just <br>
@@ -200,7 +201,7 @@
                 Witch, Germany</p>
             <a href="#">Discover</a>
         </div>
-        <div class="card  vertical_shift">
+        <div class="card">
             <img src="images/img_9.svg" alt="img_9">
             <p>"I was eight years old <br>
                 when I entered my first <br>
@@ -213,18 +214,29 @@
     </div>
 </section>
 <section class="contact_form">
+<!--    needs to be redone-->
     <div class="container_form text-center">
         <h3>Keep in touch</h3>
         <p>Get our travel advice, global views and travel freebies in your inbox</p>
-        <form action="#">
-            <label for="firstname"></label>
-            <label for="lastname"></label>
-            <p class="d-flex justify-between">
-                <input type="text" id="firstname" placeholder="First Name" class="name">
-                <input type="text" id="lastname" placeholder="Last Name" class="name">
-            </p>
-            <label for="post"></label>
-            <input type="email" id="post" placeholder="Email"><br>
+        <form action="#" method="get">
+            <div class="d-flex justify-between" style="max-width: 366px; margin: auto; flex-wrap: wrap;">
+                <div>
+                    <label for="firstname"></label>
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" class="name">
+                </div>
+                <div>
+                    <label for="lastname"></label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" class="name">
+                </div>
+                <div>
+                    <label for="post"></label>
+                    <input type="email" id="post" name="post" placeholder="Email">
+                </div>
+            </div>
+
+
+
+
             <input type="submit" value="Subscribe" class="subscribe">
         </form>
     </div>

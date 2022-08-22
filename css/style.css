@@ -242,6 +242,8 @@ header .logo {
 .card {
     max-width: 315px;
     text-align: center;
+    padding-bottom: 52px;
+    margin-top: -188px;
 }
 
 .card p {
@@ -469,9 +471,10 @@ header .logo {
 }
 
 .vertical_shift {
-    position: relative;
-    top: -188px;
-    margin-bottom: -136px;
+    /*position: relative;*/
+    /*top: -188px;*/
+    /*margin-bottom: -136px;*/
+
 }
 
 .Interviewed .card p {
@@ -534,7 +537,7 @@ header .logo {
 }
 
 .container_form form{
-    max-width: 366px;
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 26px;
