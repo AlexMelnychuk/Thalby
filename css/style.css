@@ -243,7 +243,6 @@ header .logo {
     max-width: 315px;
     text-align: center;
     padding-bottom: 52px;
-    margin-top: -188px;
 }
 
 .card p {
@@ -470,11 +469,8 @@ header .logo {
     background-color: #F0F0F0;
 }
 
-.vertical_shift {
-    /*position: relative;*/
-    /*top: -188px;*/
-    /*margin-bottom: -136px;*/
-
+.Interviewed .card {
+    margin-top: -188px;
 }
 
 .Interviewed .card p {
@@ -508,17 +504,20 @@ header .logo {
     text-decoration-line: underline;
     color: #000000;
 }
-.contact_form{
+
+.contact_form {
     padding-top: 79px;
     padding-bottom: 88px;
     background-color: #FFFFFF;
 }
 
-.container_form{
-    max-width: 496px;
+.contact_form form {
+    max-width: 366px;
     margin: auto;
+    flex-wrap: wrap;
 }
-.container_form h3{
+
+.contact_form h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -527,23 +526,18 @@ header .logo {
     color: #000000;
     margin-bottom: 9px;
 }
-.container_form p{
+
+.contact_form p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     color: #000000;
+    margin-bottom: 26px;
 }
 
-.container_form form{
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 26px;
-}
-
-.container_form input{
+.contact_form form input {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -553,26 +547,89 @@ header .logo {
     box-sizing: border-box;
 }
 
-.name{
+.name {
     width: 153px;
     padding-top: 12px;
     padding-bottom: 11px;
-    padding-left: 8px ;
+    padding-left: 8px;
     margin-bottom: 18px;
     border: 1px solid #000000;
 }
 
-#post{
-    width: 366px;
+#post {
+    width: 100%;
     padding-top: 13px;
     padding-bottom: 10px;
     padding-left: 8px;
     margin-bottom: 16px;
     border: 1px solid #000000;
 }
-.subscribe{
+
+.subscribe {
     padding: 7px 23px 10px;
     border-radius: 17px;
     color: #FFFFFF;
     background: #000000;
+}
+
+.for_input {
+    width: 366px;
+}
+footer{
+    padding-top: 51px;
+    padding-bottom: 16px;
+    background-color: #020202;
+}
+
+.for_logo{
+    width: 129px;
+}
+
+.for_logo ul{
+    margin-top: 37px;
+}
+
+.footer_links{
+    width: 143px;
+}
+.footer_links li:first-of-type {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul a{
+    text-decoration: none;
+}
+.footer_links a{
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.footer_links li:last-of-type{
+    margin-bottom: 20px;
+}
+.for_footer_links{
+    width: 349px;
+}
+footer span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
 }
