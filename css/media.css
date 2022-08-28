@@ -41,6 +41,9 @@
     .People .d-flex{
         flex-direction: column;
     }
+    .People .description h3{
+        margin-top: 50px;
+    }
     .Culture .d-flex{
         flex-direction: column;
         align-items: center;
@@ -50,6 +53,9 @@
     }
     .Power .d-flex{
         flex-direction: column;
+    }
+    .Power .description h3{
+        margin-top: 50px;
     }
     .best_sellers .d-flex{
         flex-direction: column;
@@ -76,6 +82,9 @@
     }
     .for_logo{
         padding-bottom: 50px;
+    }
+    .Features{
+        padding-top: 50px;
     }
 }
 
@@ -107,6 +116,4 @@
     }
 
 }
-@media screen and (max-width: 320px) {
 
-}
