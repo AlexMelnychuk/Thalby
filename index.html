@@ -11,13 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
 
-
 </head>
 <body>
+<div id="dialog" title="Search">
+    <form action="#" method="get">
+        <div>
+            <label for="search1"></label>
+            <input type="text" id="search1" name="search1" placeholder="Please enter your search term"
+                   required="required" minlength="2">
+        </div>
+    </form>
+</div>
 <header>
     <div class="container d-flex justify-between align-center">
         <nav>
@@ -46,7 +56,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" title="search">
+                <a href="#" id="opener" title="search">
                     <img src="images/search.svg" alt="search">
                 </a>
             </li>
@@ -73,7 +83,6 @@
 </section>
 
 
-
 <section class="best_sellers">
     <div class="for_text text-center container">
         <h3>Our guides explain countries and cultures.</h3>
@@ -83,7 +92,6 @@
         <p>Available as ebooks here and on Amazon.</p>
         <h3>Our best sellers</h3>
     </div>
-
 
 
     <div class="container d-flex justify-between owl-carousel">
@@ -248,11 +256,13 @@
         <form action="#" method="get" class="d-flex justify-between">
             <div>
                 <label for="firstname"></label>
-                <input type="text" id="firstname" name="firstname" placeholder="First Name" class="name" required="required" minlength="2">
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" class="name"
+                       required="required" minlength="2">
             </div>
             <div>
                 <label for="lastname"></label>
-                <input type="text" id="lastname" name="lastname" placeholder="Last Name" class="name" required="required" minlength="2" >
+                <input type="text" id="lastname" name="lastname" placeholder="Last Name" class="name"
+                       required="required" minlength="2">
             </div>
             <div class="for_input">
                 <label for="post"></label>
@@ -310,7 +320,10 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 <script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
 </body>
+
+
 </html>

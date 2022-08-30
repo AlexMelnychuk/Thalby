@@ -657,3 +657,21 @@ footer span{
     color: black;
 }
 
+.ui-widget-header{
+    background: #D399FF;
+}
+
+.ui-dialog .ui-dialog-content{
+   min-height: auto !important;
+}
+
+#dialog input{
+    width: 100%;
+}
+
+.ui-dialog {
+    width: 260px !important;
+    top: 10% !important;
+}
+
+
