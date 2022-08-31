@@ -658,7 +658,8 @@ footer span{
 }
 
 .ui-widget-header{
-    background: #D399FF;
+    background: #d6b860;
+
 }
 
 .ui-dialog .ui-dialog-content{
@@ -670,8 +671,24 @@ footer span{
 }
 
 .ui-dialog {
-    width: 260px !important;
+    width: 270px !important;
     top: 10% !important;
 }
 
+.ui-widget input{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+.ui-widget-header{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C1B1B;
+}
 
